@@ -1,5 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import Navbar from './components/navbar/Navbar';
 import Home from './pages/home/Home';
 import Features from './pages/features/Features';
 import Docs from './pages/docs/Docs';
@@ -7,6 +8,7 @@ import Docs from './pages/docs/Docs';
 const App = () => {
   return (
     <div className='app'>
+      <Navbar />
       <Switch>
         <Route path='/' exact>
           <Home />
