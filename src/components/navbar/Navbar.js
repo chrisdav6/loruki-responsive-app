@@ -5,7 +5,7 @@ import './navbar.scss';
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <div className='container navflex'>
+      <div className='container flex'>
         <h1 className='logo'>Loruki.</h1>
 
         <nav>
