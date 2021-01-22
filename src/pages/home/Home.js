@@ -1,6 +1,7 @@
 import React from 'react';
 import Showcase from '../../components/showcase/Showcase';
 import Stats from '../../components/stats/Stats';
+import CommandLine from '../../components/commandLine/CommandLine';
 import './home.scss';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <div className='home'>
       <Showcase />
       <Stats />
+      <CommandLine />
     </div>
   );
 };
