@@ -1,6 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 import Home from './pages/home/Home';
 import Features from './pages/features/Features';
 import Docs from './pages/docs/Docs';
@@ -20,6 +21,7 @@ const App = () => {
           <Docs />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 };
