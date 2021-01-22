@@ -2,6 +2,7 @@ import React from 'react';
 import Showcase from '../../components/showcase/Showcase';
 import Stats from '../../components/stats/Stats';
 import CommandLine from '../../components/commandLine/CommandLine';
+import Cloud from '../../components/cloud/Cloud';
 import './home.scss';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Showcase />
       <Stats />
       <CommandLine />
+      <Cloud />
     </div>
   );
 };
