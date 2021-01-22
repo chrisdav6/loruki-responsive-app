@@ -1,0 +1,47 @@
+.languages {
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2em 0 1em 0;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+
+    &.flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #fff;
+      color: #333;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      margin: 18px 10px 40px;
+      height: 150px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform .2s ease-in-out;
+
+      &:hover {
+        transform: translateY(-15px);
+      }
+
+      h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      img {
+        max-width: 60px;
+      }
+    }
+  }
+}
