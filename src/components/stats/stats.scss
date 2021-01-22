@@ -39,3 +39,15 @@
     }
   }
 }
+
+//Tablets and Under
+@media(max-width: 768px) {
+  .stats {
+    .container {
+      .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+      }
+    }
+  }
+}

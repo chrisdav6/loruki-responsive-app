@@ -29,3 +29,20 @@
     }
   }
 }
+
+//Tablets and Under
+@media(max-width: 768px) {
+  .commandLine {
+    .container {
+      &.grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+      }
+
+      &.grid>*:first-child {
+        grid-column: 1;
+        grid-row: 1;
+      }
+    }
+  }
+}

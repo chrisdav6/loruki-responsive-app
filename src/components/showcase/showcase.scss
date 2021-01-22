@@ -98,3 +98,28 @@
     }
   }
 }
+
+//Tablets and Under
+@media(max-width: 768px) {
+  .showcase {
+    height: auto;
+
+    .container {
+      &.grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0;
+      }
+
+      .showcase-text {
+        text-align: center;
+        margin-top: 40px;
+      }
+
+      .showcase-form {
+        justify-self: center;
+        margin: auto;
+      }
+    }
+  }
+}
