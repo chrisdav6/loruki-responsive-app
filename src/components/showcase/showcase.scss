@@ -54,6 +54,8 @@
     }
 
     .showcase-text {
+      animation: slideInFromLeft 1s ease-in;
+
       h1 {
         margin: 0;
         font-size: 40px;
@@ -72,6 +74,7 @@
       padding: 40px;
       z-index: 100;
       justify-self: flex-end;
+      animation: slideInFromRight 1s ease-in;
 
       &.card {
         background: #fff;
@@ -121,5 +124,26 @@
         margin: auto;
       }
     }
+  }
+}
+
+//Animations
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
   }
 }
