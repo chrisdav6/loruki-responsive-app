@@ -26,3 +26,21 @@
     }
   }
 }
+
+//Tablets and Under
+@media(max-width: 768px) {
+  .subHead {
+    text-align: center;
+
+    .container {
+      &.grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+      }
+
+      img {
+        justify-self: center;
+      }
+    }
+  }
+}
