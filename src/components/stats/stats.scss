@@ -1,5 +1,7 @@
 .stats {
+  background: #fff;
   padding-top: 100px;
+  animation: slideInFromBottom 1s ease-in;
 
   .container {
     max-width: 1100px;
@@ -49,5 +51,16 @@
         grid-template-rows: 1fr;
       }
     }
+  }
+}
+
+//Animations
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }
