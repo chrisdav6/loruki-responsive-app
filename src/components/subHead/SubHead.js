@@ -1,10 +1,10 @@
 import React from 'react';
 import server2Img from '../../images/server2.png';
-import './featuresSubHead.scss';
+import './subHead.scss';
 
 const FeaturesSubHead = () => {
   return (
-    <div className='featuresSubHead'>
+    <div className='subHead'>
       <div className='container grid'>
         <img src={server2Img} alt='Server 2' />
         <div>

@@ -1,12 +1,11 @@
-.featuresHead {
-  background: #047aed;
+.subHead {
+  background: #f4f4f4;
   padding: 3em 0;
 
   .container {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 40px;
-    color: #fff;
 
     &.grid {
       display: grid;
@@ -18,17 +17,12 @@
     }
 
     h1 {
-      font-size: 3rem;
-    }
-
-    p {
-      font-size: 20px;
-      margin: 1em 0 1.5em 0;
+      font-size: 2rem;
     }
 
     img {
-      width: 200px;
-      justify-self: flex-end;
+      width: 300px;
+      justify-self: flex-start;
     }
   }
 }

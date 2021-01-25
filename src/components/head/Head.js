@@ -1,10 +1,10 @@
 import React from 'react';
 import serverImg from '../../images/server.png';
-import './featuresHead.scss';
+import './head.scss';
 
 const FeaturesHead = () => {
   return (
-    <div className='featuresHead'>
+    <div className='head'>
       <div className='container grid'>
         <div>
           <h1>Features</h1>
