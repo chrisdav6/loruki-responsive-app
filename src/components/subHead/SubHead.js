@@ -1,20 +1,14 @@
 import React from 'react';
-import server2Img from '../../images/server2.png';
 import './subHead.scss';
 
-const FeaturesSubHead = () => {
+const FeaturesSubHead = ({ img, title, text }) => {
   return (
     <div className='subHead'>
       <div className='container grid'>
-        <img src={server2Img} alt='Server 2' />
+        <img src={img} alt='Server 2' />
         <div>
-          <h1>The Loruki Platform</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            sunt corrupti optio totam iure repellendus, veritatis deserunt
-            expedita dolore dolor vero, cumque temporibus beatae sequi,
-            praesentium unde quam natus quisquam.
-          </p>
+          <h1>{title}</h1>
+          <p>{text}</p>
         </div>
       </div>
     </div>
